@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+        <template id="stock_picking_report" inherit_id="stock.report_picking">
+            <xpath expr="//table[hasclass('table')]//tr//th[@name='th_product']"
+                   position="before">
+                <th name="th_product_code" class="text-start">Code</th>
+            </xpath>
+            <xpath expr="(//tbody//tr//td)[2]"
+                   position="before">
+                <td name="td_product_code">
+                   
+                    <span t-esc="ml.product_id.default_code"/>
+                </td>
+            </xpath>
+        </template>
+    </data>
+</odoo>

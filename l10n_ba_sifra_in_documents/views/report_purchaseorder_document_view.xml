@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+        <template id="purchase_order_report" inherit_id="purchase.report_purchaseorder_document">
+            <xpath expr="//table[hasclass('table')]//tr//th[@name='th_description']"
+                   position="before">
+                <th name="th_product_code" class="text-start">Code</th>
+            </xpath>
+            <xpath expr="//tbody//tr//td[@id='product']"
+                   position="before">
+                <td name="td_product_code">
+                    <span t-esc="line.product_code"/>
+                </td>
+            </xpath>
+
+            <xpath expr="//tbody//tr//td[@id='product']"
+                   position="replace">
+                   <td id="product">
+                        <span t-field="line.name_without_ref"/>
+                   </td>
+            </xpath>
+
+        </template>
+
+        <template id="purchase_quotation_report" inherit_id="purchase.report_purchasequotation_document">
+            <xpath expr="//table[hasclass('table')]//tr//th[@name='th_description']"
+                   position="before">
+                <th name="th_product_code" class="text-start">Code</th>
+            </xpath>
+            <xpath expr="//tbody//tr//td[@id='product']"
+                   position="before">
+                <td name="td_product_code">
+                    <span t-esc="order_line.product_code"/>
+                </td>
+            </xpath>
+
+            <xpath expr="//tbody//tr//td[@id='product']"
+                   position="replace">
+                   <td id="product">
+                        <span t-field="order_line.name_without_ref"/>
+                   </td>
+            </xpath>
+        </template>
+    </data>
+</odoo>
