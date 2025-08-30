@@ -2,5 +2,5 @@
 
 This addon depends on:
 
-- [base](https://github.com/bringout/oca-ocb-core/tree/b8a76bf74d4ef2767aa510ddf3515d4c8c9b941d/odoo-bringout-oca-ocb-base)
-- [order_line_sequences](https://github.com/bringout/cybrosys/tree/439873bdbd22d8b486c6d138229bc0bcfeee7c9e/odoo-bringout-cybrosys-order_line_sequences)
+- [base](https://github.com/bringout/oca-ocb-core/tree/3269462e6a0442fbf5ae30a27b3c18135ac733b9/odoo-bringout-oca-ocb-base)
+- [order_line_sequences](https://github.com/bringout/cybrosys/tree/08a54607f5d0b7e554d411193a1b6c8e35db824d/odoo-bringout-cybrosys-order_line_sequences)
