@@ -17,10 +17,6 @@ msgstr ""
 
 #. module: l10n_ba_sifra_in_documents
 #: model:ir.model.fields,field_description:l10n_ba_sifra_in_documents.field_purchase_order_line__product_code
-#: model_terms:ir.ui.view,arch_db:l10n_ba_sifra_in_documents.purchase_order_report
-#: model_terms:ir.ui.view,arch_db:l10n_ba_sifra_in_documents.purchase_quotation_report
-#: model_terms:ir.ui.view,arch_db:l10n_ba_sifra_in_documents.stock_picking_report
-#: model_terms:ir.ui.view,arch_db:l10n_ba_sifra_in_documents.sales_report
 msgid "Code"
 msgstr "Šifra"
 
@@ -33,4 +29,3 @@ msgstr "Šifra artikla"
 #: model:ir.model,name:l10n_ba_sifra_in_documents.model_purchase_order_line
 msgid "Purchase Order Line"
 msgstr "Stavka narudžbenice"
-
