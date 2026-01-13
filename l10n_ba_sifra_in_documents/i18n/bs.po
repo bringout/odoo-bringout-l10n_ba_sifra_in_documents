@@ -28,4 +28,4 @@ msgstr "Šifra artikla"
 #. module: l10n_ba_sifra_in_documents
 #: model:ir.model,name:l10n_ba_sifra_in_documents.model_purchase_order_line
 msgid "Purchase Order Line"
-msgstr "Stavka zahtjeva za nabavu"
+msgstr "Stavka narudžbenice"
