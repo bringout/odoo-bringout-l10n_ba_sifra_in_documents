@@ -7,7 +7,7 @@
                    position="before">
                 <th name="th_product_code" class="text-start">Code</th>
             </xpath>
-            <xpath expr="//tbody[hasclass('sale_tbody')]//tr//td[@name='td_name']"
+            <xpath expr="//tbody[hasclass('sale_tbody')]//tr//td[@name='td_product_name']"
                    position="before">
                 <td name="td_product_code">
                     <span t-esc="line.product_id.default_code"/>

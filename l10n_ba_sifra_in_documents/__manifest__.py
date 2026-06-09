@@ -1,6 +1,6 @@
 {
     'name': 'Šifra posebna kolona u dokumentima',
-    'version': '16.0.2.0.5',
+    'version': '19.0.2.0.5',
     'category': 'Extra Tools',
     'summary': 'Šifra (Code) kao posebna kolona u dokumentima.',
     'author': 'bring.out doo Sarajevo',
